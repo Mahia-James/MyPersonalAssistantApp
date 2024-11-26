@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GeneralInfoActivity">
+
+    <!-- EditText for user to enter a query -->
+    <EditText
+        android:id="@+id/etQuery"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_query"
+        android:inputType="text"
+        android:padding="16dp"
+        android:importantForAutofill="yes"
+        android:autofillHints="username"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <!-- Button to submit query -->
+    <Button
+        android:id="@+id/btnSubmitQuery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_button_text"
+        app:layout_constraintTop_toBottomOf="@id/etQuery"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- TextView to display the result of the query -->
+    <TextView
+        android:id="@+id/tvQueryResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/query_result"
+        app:layout_constraintTop_toBottomOf="@id/btnSubmitQuery"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

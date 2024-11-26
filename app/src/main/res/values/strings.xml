@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">MyPersonalAssistant</string>
+    <string name="invalid_credentials">Invalid email or password</string>
+    <string name="response_text">You asked: %1$s</string>
+    <string name="response_placeholder">Response will appear here…</string>
+    <string name="submit_button_text">Submit</string>
+    <string name="input_hint">Ask me something…</string>
+    <string name="welcome_text">Welcome!</string>
+    <string name="welcome_message">Welcome, %1$s!</string>
+    <string name="enter_task_hint">Enter a new task</string>
+    <string name="add_task_button">Add Task</string>
+    <string name="choose_date">Choose Date</string>
+    <string name="choose_time">Choose Time</string>
+    <string name="save_event">Save Event</string>
+    <string name="event_title_hint">Enter event title</string>
+    <string name="selected_date">Selected date: %1$s</string>
+    <string name="date_set">Date selected: %1$s</string>
+    <string name="get_weather">Get Weather</string>
+    <string name="enter_location_hint">Enter location</string>
+    <string name="weather_info_placeholder">Weather information will appear here…</string>
+    <string name="enter_location_prompt">Please enter a location</string>
+    <string name="weather_info">Weather in %1$s: %2$.2f°C, %3$s</string>
+    <string name="weather_error">Unable to retrieve weather information. Try again.</string>
+    <string name="enter_your_query">Enter your query</string>
+    <string name="logout">Logout</string>
+    <string name="query_result">Query result will appear here...</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="enter_event_title">Please enter an event title</string>
+    <string name="select_date_prompt">Please select a date for the event</string>
+    <string name="select_time_prompt">Please select a time for the event</string>
+    <string name="time_set">Time selected: %1$s</string>
+    <string name="event_saved">Event saved: %1$s</string>
+    <string name="edit_event_hint">Edit event details</string>
+    <string name="save">Save</string>
+
+
+    <!-- Added strings for Floating Action Buttons -->
+    <string name="task_management">Task Management</string>
+    <string name="event_scheduling">Event Scheduling</string>
+    <string name="weather_updates">Weather Updates</string>
+    <string name="general_information">General Information Retrieval</string>
+
+    <!-- Additional helpful strings for better user interaction -->
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="confirm_delete">Are you sure you want to delete?</string>
+    <string name="delete">Delete</string>
+
+    <!-- New Strings for Login and Signup Pages -->
+    <string name="full_name_hint">Full Name</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+</resources>

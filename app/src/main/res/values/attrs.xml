@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Declare custom attributes here -->
+    <declare-styleable name="CustomTheme">
+        <!-- Define colorElevationOverlay if required -->
+        <attr name="colorElevationOverlay" format="color"/>
+        <!-- Define other custom attributes as needed -->
+        <attr name="gray" format="color"/>
+        <attr name="gray_light" format="color"/>
+    </declare-styleable>
+</resources>
